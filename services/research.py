@@ -14,57 +14,65 @@ def get_research_status(research_id):
         "research_id": research_id,
         "status": "COMPLETED",
         "results": {
-            "final_research": "<h1>Analysis of the Brief Provided</h1>\n    \n    <h2>Requirement:</h2>\n    <p>Nothing specified about the requirement.</p>\n    \n    <h2>Campaign Overview:</h2>\n    <p>Lush locks is a socks brand for old generation who have very strong hairs.</p>\n    \n    <h2>Campaign Goals:</h2>\n    <p>Nothing specified about the campaign goals.</p>\n    \n    <h2>Target Audience:</h2>\n    <p>Old generation individuals with strong hair.</p>\n    \n    <h2>KPIs:</h2>\n    <p>Nothing specified about the Key Performance Indicators.</p>\n    \n    <h2>Budget:</h2>\n    <p>Nothing specified about the budget.</p>\n    \n    <h2>Timeline:</h2>\n    <p>Nothing specified about the timeline.</p>```",
+            "final_research": """
+                <h1><u>Research</u></h1>
+
+
+                <h2>Buying Patterns</h2>
+
+                <h2>1. Preference for Online Shopping</h2>
+                <p>Urban Indian women aged 18-35 are increasingly turning to online shopping, with 70% of this demographic preferring to shop online due to convenience and the availability of a wider range of products.</p>
+
+                <h2>2. Influence of Social Media</h2>
+                <p>Approximately 80% of young women in India are influenced by social media when making purchasing decisions. Platforms like Instagram and Facebook play a crucial role in shaping their fashion choices, with 60% following fashion influencers for style inspiration.</p>
+
+                <h2>3. Brand Loyalty and Quality</h2>
+                <p>Around 65% of consumers in this age group express brand loyalty, often preferring brands that offer high-quality, trendy products. Quality and style are significant factors, with 75% willing to pay a premium for products that meet their expectations.</p>
+
+                <h2>4. Seasonal and Festive Buying Trends</h2>
+                <p>Buying patterns also shift during festive seasons, with a reported increase of 50% in online fashion purchases during major festivals. This trend highlights the importance of aligning marketing campaigns with cultural events.</p>
+
+                <h2>5. Sustainability Concerns</h2>
+                <p>A growing number of consumers (about 55%) are considering sustainability in their purchasing decisions. Brands that promote eco-friendly practices and materials are likely to attract this environmentally conscious demographic.</p>
+
+                <h2>Sources</h2>
+
+                <ul>
+                    <li><a href="https://soravjain.com/social-media-marketing-campaigns-india/">Social Media Marketing Campaigns in India</a></li>
+                    <li><a href="https://www.campaignindia.in/article/threads-a-brand-engagement-powerhouse-or-a-fad/490957">Threads: A Brand Engagement Powerhouse or a Fad?</a></li>
+                    <li><a href="https://www.thevoiceoffashion.com/fabric-of-india/features/breaking-good-with-raw-mangos-brand-campaigns-4590">Breaking Good with Raw Mango's Brand Campaigns</a></li>
+                    <li><a href="https://www.grynow.in/blog/top-indian-fashion-influencers.html">Top Fashion Influencers in India</a></li>
+                    <li><a href="https://www.thevoiceoffashion.com/intersections/culture/festive-campaigns-that-charm-and-churn-5246">Festive Campaigns That Charm and Churn</a></li>
+                </ul><hr>
+                """,
             "sources": [
                 {
-                "id": "a89ebbf1-7d1b-46a7-9f8b-8f6b6f5b4c85",
-                "description": "Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking ...",
-                "title": "Google Search",
-                "url": "https://www.google.com/"
+                    "id": "d4d1b0a8-bc30-4f3b-b8b7-ccf57c5b8d4c",
+                    "url": "https://soravjain.com/social-media-marketing-campaigns-india/",
+                    "title": "Social Media Marketing Campaigns in India"
                 },
                 {
-                "id": "389ebbf1-7d1b-46a7-9f8b-8f6b6f5b4c84",
-                "description": "Meta ranks among the largest American information technology companies, alongside other Big Five corporations Alphabet (Google), Amazon, Apple, and Microsoft.",
-                "title": "Facebook Meta",
-                "url": "https://www.meta.com/"
+                    "id": "7e5c8c7b-0f71-4d5a-9d5b-1c9cf4f1c43a",
+                    "url": "https://www.campaignindia.in/article/threads-a-brand-engagement-powerhouse-or-a-fad/490957",
+                    "title": "Threads: A Brand Engagement Powerhouse or a Fad?"
                 },
                 {
-                "id": "a89ebbf1-7d1b-46a7-9f8b-8f6b6f5b4c85",
-                "description": "Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking ...",
-                "title": "Google Search",
-                "url": "https://www.google.com/"
+                    "id": "4b8d6742-d62c-4ae8-934b-865f8f2e78db",
+                    "url": "https://www.thevoiceoffashion.com/fabric-of-india/features/breaking-good-with-raw-mangos-brand-campaigns-4590",
+                    "title": "Breaking Good with Raw Mango's Brand Campaigns"
                 },
                 {
-                "id": "389ebbf1-7d1b-46a7-9f8b-8f6b6f5b4c84",
-                "description": "Meta ranks among the largest American information technology companies, alongside other Big Five corporations Alphabet (Google), Amazon, Apple, and Microsoft.",
-                "title": "Facebook Meta",
-                "url": "https://www.meta.com/"
+                    "id": "99f4a1c5-d24a-4d76-b51c-94ebcd1de80e",
+                    "url": "https://www.grynow.in/blog/top-indian-fashion-influencers.html",
+                    "title": "Top Fashion Influencers in India"
                 },
                 {
-                "id": "a89ebbf1-7d1b-46a7-9f8b-8f6b6f5b4c85",
-                "description": "Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking ...",
-                "title": "Google Search",
-                "url": "https://www.google.com/"
-                },
-                {
-                "id": "389ebbf1-7d1b-46a7-9f8b-8f6b6f5b4c84",
-                "description": "Meta ranks among the largest American information technology companies, alongside other Big Five corporations Alphabet (Google), Amazon, Apple, and Microsoft.",
-                "title": "Facebook Meta",
-                "url": "https://www.meta.com/"
-                },
-                {
-                "id": "a89ebbf1-7d1b-46a7-9f8b-8f6b6f5b4c85",
-                "description": "Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking ...",
-                "title": "Google Search",
-                "url": "https://www.google.com/"
-                },
-                {
-                "id": "389ebbf1-7d1b-46a7-9f8b-8f6b6f5b4c84",
-                "description": "Meta ranks among the largest American information technology companies, alongside other Big Five corporations Alphabet (Google), Amazon, Apple, and Microsoft.",
-                "title": "Facebook Meta",
-                "url": "https://www.meta.com/"
+                    "id": "99e4e6f0-7dc4-4a1f-8c65-9457bfc8e48e",
+                    "url": "https://www.thevoiceoffashion.com/intersections/culture/festive-campaigns-that-charm-and-churn-5246",
+                    "title": "Festive Campaigns That Charm and Churn"
                 }
             ]
+
         },
         "events": [
             {
@@ -73,11 +81,11 @@ def get_research_status(research_id):
             },
             {
             "timestamp": "2024-07-18T16:57:24.867423",
-            "data": "```html\n<!DOCTYPE html>\n<html>\n<head>\n    <title>Brief Analysis</title>\n</head>\n<body>\n    <h1>Analysis of the Brief Provided</h1>\n    \n    <h2>Requirement:</h2>\n    <p>Nothing specified about the requirement.</p>\n    \n    <h2>Campaign Overview:</h2>\n    <p>Lush locks is a socks brand for old generation who have very strong hairs.</p>\n    \n    <h2>Campaign Goals:</h2>\n    <p>Nothing specified about the campaign goals.</p>\n    \n    <h2>Target Audience:</h2>\n    <p>Old generation individuals with strong hair.</p>\n    \n    <h2>KPIs:</h2>\n    <p>Nothing specified about the Key Performance Indicators.</p>\n    \n    <h2>Budget:</h2>\n    <p>Nothing specified about the budget.</p>\n    \n    <h2>Timeline:</h2>\n    <p>Nothing specified about the timeline.</p>\n</body>\n</html>\n```"
+            "data": "Agent 1 Completed"
             },
             {
             "timestamp": "2024-07-18T16:57:34.090442",
-            "data": "{\n  \"questions\": [\n    {\n      \"id\": \"a89ebbf1-7d1b-46a7-9f8b-8f6b6f5b4c85\",\n      \"question\": \"What are the specific requirements for the campaign?\",\n      \"topic\": \"Requirement\"\n    },\n    {\n      \"id\": \"9daffb5f-0d81-49d0-ad51-9c6e8f4e2dfa\",\n      \"question\": \"What are the campaign goals that need to be achieved?\",\n      \"topic\": \"Campaign Goals\"\n    },\n    {\n      \"id\": \"c37d8b9e-0a4d-4c98-8d9f-5b6f8d1f4a52\",\n      \"question\": \"What are the Key Performance Indicators (KPIs) to measure the success of the campaign?\",\n      \"topic\": \"KPIs\"\n    },\n    {\n      \"id\": \"3c4c9f45-28d4-4e5b-9025-63f7c29b1408\",\n      \"question\": \"What is the allocated budget for the campaign?\",\n      \"topic\": \"Budget\"\n    },\n    {\n      \"id\": \"8d3ef0e1-9f64-4f63-8bdc-6f12e943c4e4\",\n      \"question\": \"What is the timeline for the campaign execution?\",\n      \"topic\": \"Timeline\"\n    }\n  ]\n}"
+            "data": "Agent 2 Completed"
             },
             {
             "timestamp": "2024-07-18T16:57:34.090880",

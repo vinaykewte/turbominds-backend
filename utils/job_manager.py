@@ -22,7 +22,7 @@ class Job:
 
 
 def append_event(job_id: str, event_data: str):
-    print("Appending event: ", job_id, event_data)
+    # print("Appending event: ", job_id, event_data)
     with jobs_lock:
         if job_id not in jobs:
             logger.info("Job %s started", job_id)

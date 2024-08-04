@@ -41,34 +41,72 @@ def get_brief_status(brief_id):
         "brief_id": "6cd5bc2a-0eab-4f2c-b74e-27862841a1b1",
         "status": "COMPLETED",
         "results": {
-            "final_brief": "```html\n<!DOCTYPE html>\n<html>\n<head>\n    <title>Brief Analysis</title>\n</head>\n<body>\n    <h1>Analysis of the Brief Provided</h1>\n    \n    <h2>Requirement:</h2>\n    <p>Nothing specified about the requirement.</p>\n    \n    <h2>Campaign Overview:</h2>\n    <p>Lush locks is a socks brand for old generation who have very strong hairs.</p>\n    \n    <h2>Campaign Goals:</h2>\n    <p>Nothing specified about the campaign goals.</p>\n    \n    <h2>Target Audience:</h2>\n    <p>Old generation individuals with strong hair.</p>\n    \n    <h2>KPIs:</h2>\n    <p>Nothing specified about the Key Performance Indicators.</p>\n    \n    <h2>Budget:</h2>\n    <p>Nothing specified about the budget.</p>\n    \n    <h2>Timeline:</h2>\n    <p>Nothing specified about the timeline.</p>\n</body>\n</html>\n```",
+            "final_brief": """
+                <h1>Glamour Threads Campaign</h1>
+<br>
+<h1><u>Brief</u></h1>
+
+                <h2>Requirement</h2>
+                <p>Boost online sales for Glamour Threads.</p>
+
+                <h2>Campaign Overview</h2>
+                <p>The campaign will showcase trendy, high-quality fashion through personalized ads and engaging social media content to drive higher engagement and conversions.</p>
+
+                <h2>Campaign Goals</h2>
+                <p>Increase brand visibility and drive online sales.</p>
+
+                <h2>Target Audience</h2>
+                <p>Indian women aged 18-35, residing in urban areas with a middle to upper-middle income level.</p>
+
+                <h2>KPIs</h2>
+                <p>Click-through rates, conversion rates, and return on ad spend.</p>
+
+                <h2>Budget</h2>
+                <p>INR 20 lakhs.</p>
+
+                <h2>Timeline</h2>
+                <p>August to October 2024.</p>
+                <br><hr>
+            """,
             "questions": [
-                {
-                "id": "a89ebbf1-7d1b-46a7-9f8b-8f6b6f5b4c85",
-                "question": "What are the specific requirements for the campaign?",
-                "topic": "Requirement"
-                },
-                {
-                "id": "9daffb5f-0d81-49d0-ad51-9c6e8f4e2dfa",
-                "question": "What are the campaign goals that need to be achieved?",
-                "topic": "Campaign Goals"
-                },
-                {
-                "id": "c37d8b9e-0a4d-4c98-8d9f-5b6f8d1f4a52",
-                "question": "What are the Key Performance Indicators (KPIs) to measure the success of the campaign?",
-                "topic": "KPIs"
-                },
-                {
-                "id": "3c4c9f45-28d4-4e5b-9025-63f7c29b1408",
-                "question": "What is the allocated budget for the campaign?",
-                "topic": "Budget"
-                },
-                {
-                "id": "8d3ef0e1-9f64-4f63-8bdc-6f12e943c4e4",
-                "question": "What is the timeline for the campaign execution?",
-                "topic": "Timeline"
-                }
-            ]
+    {
+        "id": "3d6fa7e5-8b6d-4a87-a3b5-5a751fd293e2",
+        "topic": "Requirement",
+        "question": "Which unique selling points of Glamour Threads should we highlight to boost online sales?"
+    },
+    {
+        "id": "7cb1b9c7-9f69-47b8-8c35-9dfede8e0b14",
+        "topic": "Campaign Overview",
+        "question": "What types of content have previously resonated most with your audience?"
+    },
+    {
+        "id": "a1d3e7d6-60b1-4e1a-8f9f-6f0fded8f8c5",
+        "topic": "Campaign Goals",
+        "question": "What is the primary measure of success for this campaign?"
+    },
+    {
+        "id": "b2a6c8e1-9b6f-47b9-8e6c-6a7b7c8e8e7e",
+        "topic": "Target Audience",
+        "question": "Which social media platforms does your target audience use the most?"
+    },
+    {
+        "id": "a2b7c6e9-0c7d-4f9b-8e6c-7b8c9d6e8e7f",
+        "topic": "KPIs",
+        "question": "Do you have specific targets for the KPIs listed in the brief?"
+    },
+    {
+        "id": "b1c6e8a9-9d7f-4c8b-9e6c-7b9f8e6d7e9f",
+        "topic": "Budget",
+        "question": "How do you plan to allocate the INR 20 lakhs budget across different channels and activities?"
+    },
+    {
+        "id": "4d7e8b9a-8c5e-4d8b-9c6f-7b8e6f7e8e9a",
+        "topic": "Timeline",
+        "question": "Are there any key dates or milestones within the August to October timeline that we should be aware of?"
+    }
+]
+
+
         },
         "events": [
             {
@@ -77,11 +115,11 @@ def get_brief_status(brief_id):
             },
             {
             "timestamp": "2024-07-18T16:57:24.867423",
-            "data": "```html\n<!DOCTYPE html>\n<html>\n<head>\n    <title>Brief Analysis</title>\n</head>\n<body>\n    <h1>Analysis of the Brief Provided</h1>\n    \n    <h2>Requirement:</h2>\n    <p>Nothing specified about the requirement.</p>\n    \n    <h2>Campaign Overview:</h2>\n    <p>Lush locks is a socks brand for old generation who have very strong hairs.</p>\n    \n    <h2>Campaign Goals:</h2>\n    <p>Nothing specified about the campaign goals.</p>\n    \n    <h2>Target Audience:</h2>\n    <p>Old generation individuals with strong hair.</p>\n    \n    <h2>KPIs:</h2>\n    <p>Nothing specified about the Key Performance Indicators.</p>\n    \n    <h2>Budget:</h2>\n    <p>Nothing specified about the budget.</p>\n    \n    <h2>Timeline:</h2>\n    <p>Nothing specified about the timeline.</p>\n</body>\n</html>\n```"
+            "data": "Agent 1 Completed"
             },
             {
             "timestamp": "2024-07-18T16:57:34.090442",
-            "data": "{\n  \"questions\": [\n    {\n      \"id\": \"a89ebbf1-7d1b-46a7-9f8b-8f6b6f5b4c85\",\n      \"question\": \"What are the specific requirements for the campaign?\",\n      \"topic\": \"Requirement\"\n    },\n    {\n      \"id\": \"9daffb5f-0d81-49d0-ad51-9c6e8f4e2dfa\",\n      \"question\": \"What are the campaign goals that need to be achieved?\",\n      \"topic\": \"Campaign Goals\"\n    },\n    {\n      \"id\": \"c37d8b9e-0a4d-4c98-8d9f-5b6f8d1f4a52\",\n      \"question\": \"What are the Key Performance Indicators (KPIs) to measure the success of the campaign?\",\n      \"topic\": \"KPIs\"\n    },\n    {\n      \"id\": \"3c4c9f45-28d4-4e5b-9025-63f7c29b1408\",\n      \"question\": \"What is the allocated budget for the campaign?\",\n      \"topic\": \"Budget\"\n    },\n    {\n      \"id\": \"8d3ef0e1-9f64-4f63-8bdc-6f12e943c4e4\",\n      \"question\": \"What is the timeline for the campaign execution?\",\n      \"topic\": \"Timeline\"\n    }\n  ]\n}"
+            "data": "Agent 2 Completed"
             },
             {
             "timestamp": "2024-07-18T16:57:34.090880",
